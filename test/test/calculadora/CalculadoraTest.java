@@ -11,12 +11,21 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  */
 public class CalculadoraTest {
 
-    /* Tenemos un método de la clase calculadora que tiene que sumar dos números */
+    /**
+    /* Tenemos un método de la clase calculadora que tiene que sumar dos números reales
+     representados como float
+     */
     @Test
     public void testSuma() {
+        // arrange
         Calculadora c = new Calculadora();
-
-        assertEquals(5, c.suma(2, 3));
+        float resultadoEsperado = 5.0f;
+        float numero1 = 2.0f;
+        float numero2 = 3.0f;
+        // act
+        float resultadoObtenido = c.sumar(numero1, numero2);
+        // assert
+        assertEquals(resultadoEsperado, resultadoObtenido);
     }
 
 }

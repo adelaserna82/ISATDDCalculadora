@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00c50603-b80d-455f-afe8-90e1c6d27566" name="Changes" comment="Cambio de directorio">
-      <change afterPath="$PROJECT_DIR$/test/test/calculadora/CalculadoraTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISA_TDD_Calculadora.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ISA_TDD_Calculadora.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test/calculadora/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/test/calculadora/CalculadoraTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,22 +29,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/albertodelaserna/Documents/UNIR/Asignaturas/ISA/grupal/ISA_TDD_Calculadora",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/albertodelaserna/Documents/UNIR/Asignaturas/ISA/grupal/ISA_TDD_Calculadora&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="CalculadoraTest.testSuma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ISA_TDD_Calculadora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.calculadora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.calculadora" />
+      <option name="MAIN_CLASS_NAME" value="test.calculadora.CalculadoraTest" />
+      <option name="METHOD_NAME" value="testSuma" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculadoraTest.testSuma" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,6 +79,7 @@
       <workItem from="1653056016192" duration="839000" />
       <workItem from="1653110058413" duration="581000" />
       <workItem from="1653202507804" duration="3424000" />
+      <workItem from="1653332298646" duration="479000" />
     </task>
     <task id="LOCAL-00001" summary="Cambio de directorio">
       <created>1653202536459</created>
