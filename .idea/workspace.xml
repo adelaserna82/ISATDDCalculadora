@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00c50603-b80d-455f-afe8-90e1c6d27566" name="Changes" comment="Cambio de directorio">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test/calculadora/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/test/calculadora/CalculadoraTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="00c50603-b80d-455f-afe8-90e1c6d27566" name="Changes" comment="He creado la clase calculadora que implementará los métodos que vayan requirendo las pruebas" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +21,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29QrAfhNbCanCuATcI85oY9Orb2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -79,7 +78,7 @@
       <workItem from="1653056016192" duration="839000" />
       <workItem from="1653110058413" duration="581000" />
       <workItem from="1653202507804" duration="3424000" />
-      <workItem from="1653332298646" duration="479000" />
+      <workItem from="1653332298646" duration="890000" />
     </task>
     <task id="LOCAL-00001" summary="Cambio de directorio">
       <created>1653202536459</created>
@@ -88,7 +87,21 @@
       <option name="project" value="LOCAL" />
       <updated>1653202536459</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="He creado el método de testeo &quot;testSuma&quot;, dados dos números reales cuyo resultado ya conocemos tenemos que verificar que el resultado de la calculadora es igual al esperado.">
+      <created>1653333085214</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653333085214</updated>
+    </task>
+    <task id="LOCAL-00003" summary="He creado la clase calculadora que implementará los métodos que vayan requirendo las pruebas">
+      <created>1653333181296</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653333181296</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +120,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Cambio de directorio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cambio de directorio" />
+    <MESSAGE value="He creado el método de testeo &quot;testSuma&quot;, dados dos números reales cuyo resultado ya conocemos tenemos que verificar que el resultado de la calculadora es igual al esperado." />
+    <MESSAGE value="He creado la clase calculadora que implementará los métodos que vayan requirendo las pruebas" />
+    <option name="LAST_COMMIT_MESSAGE" value="He creado la clase calculadora que implementará los métodos que vayan requirendo las pruebas" />
   </component>
 </project>
