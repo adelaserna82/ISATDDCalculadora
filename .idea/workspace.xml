@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00c50603-b80d-455f-afe8-90e1c6d27566" name="Changes" comment="Comito el workspace.xml">
-      <change beforePath="$PROJECT_DIR$/src/com/calculadora/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/calculadora/Calculadora.java" afterDir="false" />
+    <list default="true" id="00c50603-b80d-455f-afe8-90e1c6d27566" name="Changes" comment="Acabo de implementar en la calculadora el método sumar, he lanzado el testeo unitario de esta prueba y lo pasa satisfactoriamente.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test/calculadora/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/test/calculadora/CalculadoraTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,7 +47,23 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CalculadoraTest.testResta">
+    <configuration name="CalculadoraTest.testResta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ISA_TDD_Calculadora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.calculadora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.calculadora" />
+      <option name="MAIN_CLASS_NAME" value="test.calculadora.CalculadoraTest" />
+      <option name="METHOD_NAME" value="testResta" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CalculadoraTest.testSuma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ISA_TDD_Calculadora" />
       <extension name="coverage">
@@ -66,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculadoraTest.testResta" />
         <item itemvalue="JUnit.CalculadoraTest.testSuma" />
       </list>
     </recent_temporary>
@@ -81,7 +98,7 @@
       <workItem from="1653056016192" duration="839000" />
       <workItem from="1653110058413" duration="581000" />
       <workItem from="1653202507804" duration="3424000" />
-      <workItem from="1653332298646" duration="1063000" />
+      <workItem from="1653332298646" duration="1382000" />
     </task>
     <task id="LOCAL-00001" summary="Cambio de directorio">
       <created>1653202536459</created>
@@ -111,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653333305015</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Acabo de implementar en la calculadora el método sumar, he lanzado el testeo unitario de esta prueba y lo pasa satisfactoriamente.">
+      <created>1653333506995</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653333506995</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +157,7 @@
     <MESSAGE value="He creado el método de testeo &quot;testSuma&quot;, dados dos números reales cuyo resultado ya conocemos tenemos que verificar que el resultado de la calculadora es igual al esperado." />
     <MESSAGE value="He creado la clase calculadora que implementará los métodos que vayan requirendo las pruebas" />
     <MESSAGE value="Comito el workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Comito el workspace.xml" />
+    <MESSAGE value="Acabo de implementar en la calculadora el método sumar, he lanzado el testeo unitario de esta prueba y lo pasa satisfactoriamente." />
+    <option name="LAST_COMMIT_MESSAGE" value="Acabo de implementar en la calculadora el método sumar, he lanzado el testeo unitario de esta prueba y lo pasa satisfactoriamente." />
   </component>
 </project>
