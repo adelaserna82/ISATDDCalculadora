@@ -79,7 +79,10 @@ public class CalculadoraTest {
         // assert
         assertEquals(resultadoEsperado, resultadoObtenido);
     }
-
+    /**
+     * Tenemos que tener un método de la clase calculadora que tiene que realizar
+     * la raíz cuadrada de un número real representado como float
+     */
     @Test
     public  void testRaizCuadrada() {
         // arrange
