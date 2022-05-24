@@ -8,4 +8,12 @@ public class Calculadora {
     public float restar(float numero1, float numero2) {
         return numero1 - numero2;
     }
+
+    public float multipicar(float numero1, float numero2) {
+        return numero1 * numero2;
+    }
+
+    public float dividir(float numero1, float numero2) {
+        return numero1 / numero2;
+    }
 }
