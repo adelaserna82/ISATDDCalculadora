@@ -80,4 +80,16 @@ public class CalculadoraTest {
         assertEquals(resultadoEsperado, resultadoObtenido);
     }
 
+    @Test
+    public  void testRaizCuadrada() {
+        // arrange
+        Calculadora c = new Calculadora();
+        float resultadoEsperado = 2.0f;
+        float numero1 = 4.0f;
+        // act
+        float resultadoObtenido = c.raizCuadrada(numero1);
+        // assert
+        assertEquals(resultadoEsperado, resultadoObtenido);
+    }
+
 }
