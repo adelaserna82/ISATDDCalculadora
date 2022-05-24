@@ -4,6 +4,7 @@ import com.calculadora.Calculadora;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 /**
@@ -91,8 +92,8 @@ public class CalculadoraTest {
         float numero1 = 4.0f;
         // act
         float resultadoObtenido = c.raizCuadrada(numero1);
-        // assert
-        assertEquals(resultadoEsperado, resultadoObtenido);
+        // assertEquals(resultadoEsperado, resultadoObtenido);
+        assertTrue(resultadoEsperado - resultadoObtenido < 0.00001);
     }
 
 }

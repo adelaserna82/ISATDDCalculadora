@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="00c50603-b80d-455f-afe8-90e1c6d27566" name="Changes" comment="Método test de la raiz cuadrada añadido">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/calculadora/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/calculadora/Calculadora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test/calculadora/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/test/calculadora/CalculadoraTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,9 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculadoraTest" />
-        <item itemvalue="JUnit.CalculadoraTest.testResta" />
         <item itemvalue="JUnit.CalculadoraTest.testSuma" />
+        <item itemvalue="JUnit.CalculadoraTest.testResta" />
+        <item itemvalue="JUnit.CalculadoraTest" />
+        <item itemvalue="JUnit.CalculadoraTest.testSuma" />
+        <item itemvalue="JUnit.CalculadoraTest.testResta" />
       </list>
     </recent_temporary>
   </component>
