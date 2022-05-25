@@ -88,11 +88,11 @@ public class CalculadoraTest {
     public  void testRaizCuadrada() {
         // arrange
         Calculadora c = new Calculadora();
-        float resultadoEsperado = 2.0f;
-        float numero1 = 4.0f;
+        float resultadoEsperado = 6.708203932499369f;
+        float numero1 = 45.0f;
         // act
         float resultadoObtenido = c.raizCuadrada(numero1);
-        // assertEquals(resultadoEsperado, resultadoObtenido);
+        // assert
         assertTrue(resultadoEsperado - resultadoObtenido < 0.00001);
     }
 
