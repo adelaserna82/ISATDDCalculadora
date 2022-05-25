@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00c50603-b80d-455f-afe8-90e1c6d27566" name="Changes" comment="Método test de la raiz cuadrada añadido">
+    <list default="true" id="00c50603-b80d-455f-afe8-90e1c6d27566" name="Changes" comment="He modificado en la definición de testRaizCuadrada el AssertEquals por AssertTrue, ya que necesitamos comprobar que la diferencia entre el resultado esperado y el obtenido sea inferior a 0.00001">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/calculadora/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/calculadora/Calculadora.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test/calculadora/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/test/calculadora/CalculadoraTest.java" afterDir="false" />
@@ -53,7 +53,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CalculadoraTest">
+  <component name="RunManager" selected="JUnit.CalculadoraTest.testRaizCuadrada">
     <configuration name="CalculadoraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ISA_TDD_Calculadora" />
       <extension name="coverage">
@@ -65,6 +65,22 @@
       <option name="PACKAGE_NAME" value="test.calculadora" />
       <option name="MAIN_CLASS_NAME" value="test.calculadora.CalculadoraTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraTest.testRaizCuadrada" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ISA_TDD_Calculadora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.calculadora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.calculadora" />
+      <option name="MAIN_CLASS_NAME" value="test.calculadora.CalculadoraTest" />
+      <option name="METHOD_NAME" value="testRaizCuadrada" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculadoraTest.testRaizCuadrada" />
         <item itemvalue="JUnit.CalculadoraTest.testSuma" />
         <item itemvalue="JUnit.CalculadoraTest.testResta" />
         <item itemvalue="JUnit.CalculadoraTest" />
         <item itemvalue="JUnit.CalculadoraTest.testSuma" />
-        <item itemvalue="JUnit.CalculadoraTest.testResta" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653425160315</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="He modificado en la definición de testRaizCuadrada el AssertEquals por AssertTrue, ya que necesitamos comprobar que la diferencia entre el resultado esperado y el obtenido sea inferior a 0.00001">
+      <created>1653427139918</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653427139918</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +263,28 @@
     <MESSAGE value="Acabo de implementar en la clase Calculadora el método restar. Una vez implementado, he realizado la prueba unitaria de la resta y lo ha pasado satisfactoriamente.&#10;&#10;Para comprobar que lo desarrollado con anterioridad ha funcionado bien, he pasado todas las pruebas unitarias (testSuma y testResta) y las ha pasado satisfactoriamente." />
     <MESSAGE value="Vuelvo a hacer commit del workspace.xml" />
     <MESSAGE value="Método test de la raiz cuadrada añadido" />
-    <option name="LAST_COMMIT_MESSAGE" value="Método test de la raiz cuadrada añadido" />
+    <MESSAGE value="He modificado en la definición de testRaizCuadrada el AssertEquals por AssertTrue, ya que necesitamos comprobar que la diferencia entre el resultado esperado y el obtenido sea inferior a 0.00001" />
+    <option name="LAST_COMMIT_MESSAGE" value="He modificado en la definición de testRaizCuadrada el AssertEquals por AssertTrue, ya que necesitamos comprobar que la diferencia entre el resultado esperado y el obtenido sea inferior a 0.00001" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/calculadora/Calculadora.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/calculadora/Calculadora.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/calculadora/Calculadora.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
