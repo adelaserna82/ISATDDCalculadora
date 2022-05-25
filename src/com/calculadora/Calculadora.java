@@ -36,11 +36,7 @@ public class Calculadora {
         // o por la derecha
         nEsp = (x - nIzq*nIzq) < (nDer*nDer - x) ? nIzq : nDer;
 
-
-
-        System.out.println("aproximacionCuadrado: " + nEsp);
-
-        // Ahora aplicamos la fórmula de Bakhshali∫
+        // Ahora aplicamos la fórmula de Bakhshali
         // raiz(numero) = (n^4 + 6*n^2*x + x^2) / (4*n^3 + 4*n*x)
         return (nEsp*nEsp*nEsp*nEsp + 6*nEsp*nEsp*x + x*x) / (4*nEsp*nEsp*nEsp + 4*nEsp*x);
     }
