@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00c50603-b80d-455f-afe8-90e1c6d27566" name="Changes" comment="He implementado el método raíz cuadrada en la clase Calculadora.java">
+    <list default="true" id="00c50603-b80d-455f-afe8-90e1c6d27566" name="Changes" comment="He quitado el System.out.println del método raizCuadrada.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/calculadora/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/calculadora/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test/calculadora/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/test/calculadora/CalculadoraTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
   }
 }</component>
   <component name="RunManager" selected="JUnit.CalculadoraTest.testRaizCuadrada">
-    <configuration name="CalculadoraTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadoraTest.testDivision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ISA_TDD_Calculadora" />
       <extension name="coverage">
         <pattern>
@@ -63,7 +64,24 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.calculadora" />
       <option name="MAIN_CLASS_NAME" value="test.calculadora.CalculadoraTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testDivision" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculadoraTest.testMultiplicacion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ISA_TDD_Calculadora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.calculadora.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.calculadora" />
+      <option name="MAIN_CLASS_NAME" value="test.calculadora.CalculadoraTest" />
+      <option name="METHOD_NAME" value="testMultiplicacion" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculadoraTest.testResta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculadoraTest.testRestaComprobarVariasRestasDeGolpe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ISA_TDD_Calculadora" />
       <extension name="coverage">
         <pattern>
@@ -94,7 +112,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.calculadora" />
       <option name="MAIN_CLASS_NAME" value="test.calculadora.CalculadoraTest" />
-      <option name="METHOD_NAME" value="testResta" />
+      <option name="METHOD_NAME" value="testRestaComprobarVariasRestasDeGolpe" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,10 +137,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CalculadoraTest.testRaizCuadrada" />
+        <item itemvalue="JUnit.CalculadoraTest.testDivision" />
+        <item itemvalue="JUnit.CalculadoraTest.testMultiplicacion" />
         <item itemvalue="JUnit.CalculadoraTest.testSuma" />
-        <item itemvalue="JUnit.CalculadoraTest.testResta" />
-        <item itemvalue="JUnit.CalculadoraTest" />
-        <item itemvalue="JUnit.CalculadoraTest.testSuma" />
+        <item itemvalue="JUnit.CalculadoraTest.testRestaComprobarVariasRestasDeGolpe" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +156,8 @@
       <workItem from="1653110058413" duration="581000" />
       <workItem from="1653202507804" duration="3424000" />
       <workItem from="1653332298646" duration="7262000" />
+      <workItem from="1654023965554" duration="549000" />
+      <workItem from="1654112010007" duration="3534000" />
     </task>
     <task id="LOCAL-00001" summary="Cambio de directorio">
       <created>1653202536459</created>
@@ -230,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653462431070</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="He quitado el System.out.println del método raizCuadrada.">
+      <created>1653462950839</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1653462950839</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +274,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="raizCuadradaTest" />
                       </list>
                     </value>
                   </entry>
@@ -280,19 +307,20 @@
     <MESSAGE value="En el Arrange he preparado la prueba con el valor 45.0f y el resultado esperado ha de ser: 6.708203932499369f." />
     <MESSAGE value="Commit del workspace.xml" />
     <MESSAGE value="He implementado el método raíz cuadrada en la clase Calculadora.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="He implementado el método raíz cuadrada en la clase Calculadora.java" />
+    <MESSAGE value="He quitado el System.out.println del método raizCuadrada." />
+    <option name="LAST_COMMIT_MESSAGE" value="He quitado el System.out.println del método raizCuadrada." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/calculadora/Calculadora.java</url>
-          <line>40</line>
+          <line>46</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/calculadora/Calculadora.java</url>
-          <line>33</line>
+          <line>39</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
