@@ -13,14 +13,20 @@ public class Calculadora {
         return numero1 * numero2;
     }
 
-    public float dividir(float numero1, float numero2) {
+    public float dividir(float numero1, float numero2) throws Exception {
+        if (numero2 == 0) {
+            throw new Exception("No se puede dividir por cero");
+        }
         return numero1 / numero2;
     }
 
-    public float raizCuadrada(float x) {
+    public float raizCuadrada(float x) throws Exception {
         // Fórmula para aproximarse a la raíz cuadrada de un número
         // https://es.wikipedia.org/wiki/C%C3%A1lculo_de_la_ra%C3%ADz_cuadrada
 
+        if (x < 0) {
+            throw new Exception("No se puede hallar la raíz cuadrada de un número negativo");
+        }
         var nIzq = 0.0f;
         var nDer = 0.0f;
         var nEsp = 0.0f;
